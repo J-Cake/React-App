@@ -1,0 +1,23 @@
+{
+    "name": "react-test-app",
+    "main": "./build/out/server.js",
+    "type": "module",
+    "scripts": {
+        "build": "node ./build.js"
+    },
+    "dependencies": {
+        "@types/express": "^4.17.11",
+        "esbuild": "latest",
+        "express": "^4.17.1",
+        "fs-extra": "^9.1.0",
+        "react": "latest",
+        "react-dom": "latest"
+    },
+    "devDependencies": {
+        "@types/node": "latest",
+        "@types/react": "latest",
+        "@types/react-dom": "latest",
+        "@types/source-map-support": "latest",
+        "source-map-support": "latest"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNEXT",
+        "rootDir": "./app",
+        "outDir": "./build/out",
+        "jsx": "react",
+        "allowSyntheticDefaultImports": true,
+        "downlevelIteration": true,
+        "sourceMap": true,
+        "moduleResolution": "node"
+    },
+    "exclude": ["node_modules"]
+}
